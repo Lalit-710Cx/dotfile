@@ -1,4 +1,5 @@
 {
-  "template": "04 - templates/template-daily",
-  "folder": "03 - calendar/daily-tasks"
+  "template": "04 - templates/template",
+  "folder": "03 - calendar/daily-tasks",
+  "format": "DD-MM-YYYY"
 }

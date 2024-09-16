@@ -10,7 +10,7 @@ sort_dir_first      = true
 linemode            = "none"
 show_hidden         = true
 show_symlink        = true
-mouse_events        = "click"
+mouse_events        = ["click"]
 
 [preview]
 tab_size = 2

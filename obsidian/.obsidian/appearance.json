@@ -4,7 +4,7 @@
   "interfaceFontFamily": "Cascadia Code",
   "textFontFamily": "Cascadia Code PL",
   "monospaceFontFamily": "Cascadia Code",
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "enabledCssSnippets": [
     "colored-sidebar-items",
     "cosmos-general-tweaks",
@@ -12,5 +12,7 @@
     "daily-note-themes",
     "notebook-backgrounds"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSizeAction": false,
+  "nativeMenus": false
 }

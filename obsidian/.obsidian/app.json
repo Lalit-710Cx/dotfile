@@ -1,6 +1,6 @@
 {
   "vimMode": true,
-  "attachmentFolderPath": "05 - assets",
+  "attachmentFolderPath": "05 - Attachment",
   "showLineNumber": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
@@ -8,5 +8,10 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "source",
+  "rightToLeft": false,
+  "showUnsupportedFiles": false,
+  "promptDelete": false,
+  "showInlineTitle": true
 }

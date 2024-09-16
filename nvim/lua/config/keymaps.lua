@@ -3,3 +3,4 @@
 -- Add any additional keymaps hereby
 --
 vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = true })
+vim.api.nvim_set_keymap("n", "w", "b", { noremap = true, silent = true })
