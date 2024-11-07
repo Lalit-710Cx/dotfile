@@ -5,7 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting)
+plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
@@ -77,10 +77,8 @@ alias fm='yazi'
 
 #My personal configs:
 alias pnote='nvim /home/bikram007/GitHub/Competitive-Programming/Python'
-
-
-
-
+alias n='nvim'
+alias a='nvim'
 
 # Handy change dir shortcuts
 alias ..='cd ..'
@@ -102,6 +100,7 @@ alias mkdir='mkdir -p'
 export TERM=xterm-256color
 
 
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+[ -d ~/.cargo/bin ] && export PATH=~/.cargo/bin:$PATH

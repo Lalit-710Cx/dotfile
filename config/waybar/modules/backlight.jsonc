@@ -1,0 +1,10 @@
+    "backlight": {
+        "device": "intel_backlight",
+        "rotate": ${r_deg},
+        "format": "<span foreground='#ff00b3'>{icon}</span> <span foreground='#ffb3db'>{percent}%</span>",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-scroll-up": "brightnessctl set 1%+",
+        "on-scroll-down": "brightnessctl set 1%-",
+        "min-length": 6
+    },
+

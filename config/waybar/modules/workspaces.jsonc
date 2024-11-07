@@ -1,0 +1,30 @@
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "rotate": ${r_deg},
+        "all-outputs": true,
+        "format":"{icon}",
+        "active-only": false,
+        "on-click": "activate",
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+        "persistent-workspaces": {
+	"1": [],
+	"2": [],
+	"3": [],
+	"4": [],
+	"5": [],
+        },
+        "format-icons": {
+        "1": "<span foreground='#ff8000'>󰈹 </span><span foreground='#ffb263'>./Web</span>",
+        "2": "<span foreground='#328cfa'>󰆍 </span><span foreground='#5ea7ff'>./Shell</span> ",
+        "3": "<span foreground='#c6ff00'>󰓇 </span><span foreground='#eaffa1'>./Music</span>",
+        "4": "<span foreground='#b169ff'> </span><span foreground='#c7adff'>./Discord</span>",
+        "5": "<span foreground='#b3005f'> </span><span foreground='#ff7ac1'>./Docs</span>",
+	"6": "<span foreground='#c6ff00'>六</span>",
+        "7": "<span foreground='#00ffff'>七</span>",
+        "8": "<span foreground='#b3005f'>八</span>",
+        "9": "<span foreground='#c6ff00'>九</span>",
+        "10": "<span foreground='#00ffff'>十</span>" 
+         }
+    },

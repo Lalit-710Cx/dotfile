@@ -1,0 +1,9 @@
+    "idle_inhibitor": {
+        "format": "<span foreground='#c6ff00'>{icon}</span>",
+        "rotate": ${r_deg},
+        "format-icons": {
+            "activated": "󰥔",
+            "deactivated": ""
+        }
+    },
+

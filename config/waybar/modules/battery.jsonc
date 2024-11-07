@@ -1,0 +1,14 @@
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "<span foreground='#c6ff00'>{icon}</span><span foreground='#cbffc7'> {capacity}%</span>",
+        "rotate": ${r_deg},
+        "format-charging": "<span foreground='#c6ff00'></span><span foreground='#cbffc7'> {capacity}%</span>",
+        "format-plugged": "<span foreground='#c6ff00'></span><span foreground='#cbffc7'> {capacity}%</span>",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+

@@ -1,0 +1,13 @@
+    "network": {
+        "tooltip": true,
+        "format-wifi": "<span foreground='#ff00b3'></span> ",
+        "rotate": ${r_deg},
+        "format-ethernet": "<span foreground='#ff00b3'> 󰈀 </span>",
+        "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
+        "format-linked": "<span foreground='#ff00b3'> 󰈀 {ifname} (No IP) </span>",
+        "format-disconnected": "<span foreground='#ff00b3'> 󰖪 </span>",
+        "tooltip-format-disconnected": "<span foreground='#ff00b3'> Disconnected </span>",
+        "format-alt": "<span foreground='#ff00b3'> {bandwidthDownBytes}</span> <span foreground='#FF4769'> {bandwidthUpBytes}</span>",
+        "interval": 2,
+    },
+
