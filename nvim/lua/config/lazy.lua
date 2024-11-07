@@ -24,7 +24,23 @@ require("lazy").setup({
     { "mfussenegger/nvim-dap" },
     -- import/override with your plugins
     { import = "plugins" },
+    -- Add Copilot
+    { "zbirenbaum/copilot.lua", lazy = true },
+    { "zbirenbaum/copilot-cmp", dependencies = "copilot.lua" },
+
+    -- lazygit
+    {
+      "kdheepak/lazygit.nvim",
+      dependencies = {
+        "nvim-telescope/telescope.nvim",
+        "nvim-lua/plenary.nvim",
+      },
+      config = function()
+        require("telescope").load_extension("lazygit")
+      end,
+    },
   },
+
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
     -- If you know what you're doing, you can set this to `true` to have all your custom plugins lazy-loaded by default.
